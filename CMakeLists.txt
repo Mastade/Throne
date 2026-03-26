@@ -337,6 +337,8 @@ set(PROJECT_SOURCES
         src/sys/linux/systemChecks.cpp
         include/configs/sub/warp.h
         src/configs/sub/warp.cpp
+        3rdparty/wayland-hotkey/portal.h
+        3rdparty/wayland-hotkey/portal.cpp
 )
 
 if (NOT APPLE AND Qt6_VERSION VERSION_GREATER_EQUAL 6.9.0)
